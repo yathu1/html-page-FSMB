@@ -16,8 +16,9 @@ body{
     padding: 20px 0;
     margin: 0 400px 0 0;
     width: 100%;
+    position: fixed;
+    z-index: 1000;
 }
-
 
 
 .nav-list ul{
@@ -42,6 +43,7 @@ body{
 .hero{
     position: relative;
     width: 100%;
+    padding-bottom: 200px;
 }
 
 .hero img{
@@ -86,6 +88,42 @@ body{
     height: 100px;
     border-radius: 80%;
     margin-bottom: 10px;
+    
+}
+
+.services{
+    position: relative;
+    background-color: aqua;
+}
+
+.service-image{
+    position: absolute;
+}
+
+.service-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.service-inner{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 50%;
+    margin-left: 700px;
+    }
+
+.s-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 30px 0;
+    width: 100%;
+    background-color: #fff;
+    padding: 90px 10px;
+    row-gap: 20px;
     
 }
 
